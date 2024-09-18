@@ -1,9 +1,13 @@
 import React from 'react'
 
+const names = ['Lakruwan','Nisitha']
+
 const Post = () => {
+
+    const chosenName = Math.random() > 0.5 ? names[0] : names[1];
   return (
     <div>
-        <p>Dulnjali Senarathna</p>
+        <p>{chosenName}</p>
         <p>React js is awesome</p>
     </div>
   )
