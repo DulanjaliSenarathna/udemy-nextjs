@@ -1,10 +1,10 @@
-import Post from "./components/Post";
+
+import PostsList from "./components/PostsList";
 
 function App() {
   return <main>
-    <Post author="Dulani" body="This is a body"/>
-    <Post author="Mesi" body="This is a body2"/>
-  </main>
+    <PostsList/>
+    </main>
 }
 
 export default App;
