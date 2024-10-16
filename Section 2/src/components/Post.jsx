@@ -3,13 +3,13 @@ import classes from './Post.module.css'
 
 const names = ['Lakruwan','Nisitha']
 
-const Post = (props) => {
+const Post = ({author, body}) => {
 
     const chosenName = Math.random() > 0.5 ? names[0] : names[1];
   return (
     <div className={classes.post}>
-        <p className={classes.author}>{props.author}</p>
-        <p className={classes.text}>{props.body}</p>
+        <p className={classes.author}>{author}</p>
+        <p className={classes.text}>{body}</p>
        
     </div>
   )
