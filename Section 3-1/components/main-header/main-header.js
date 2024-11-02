@@ -16,7 +16,7 @@ const MainHeader = () => {
             <MainHeaderBackground />
             <header className={styles.header}>
                 <Link className={styles.logo} href=''>
-                    <Image src={logoImg} priority />
+                    <Image src={logoImg} priority alt='image'/>
                     NextLevel Food
                 </Link>
 
