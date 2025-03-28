@@ -46,7 +46,7 @@ async function FilteredNews({year, month}){
 
     let newsContent = <p>No news found!</p>
 
-    if(news && news.length >0){
+    if(news && news.length>0){
         newsContent = <NewsList news={news}/>
     }
 
